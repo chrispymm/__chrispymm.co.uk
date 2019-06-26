@@ -2,7 +2,7 @@
 	--bg: #efefef;
   --fg: #313131;
 	--white: white;
-	--blue: #C26B56;
+	--accent: #C26B56;
 }
 
 *, *:before, *:after {
@@ -35,7 +35,7 @@ code {
 
 a[href],
 a[href]:visited {
-	color: var(--blue);
+	color: var(--accent);
 }
 
 a[href]:not(:hover) {
@@ -133,15 +133,15 @@ a[rel="tag"]:visited {
 	height: 2em;
   border: 1px solid var(--white);
 	background-color: var(--white);
-	color: var(--blue);
+	color: var(--accent);
   border-radius: .25em;
   text-decoration: none;
 	margin: 0 .5em .5em 0;
 }
 
 a[rel="tag"]:hover {
-	border: 1px solid var(--blue);
-	background-color: var(--blue);
+	border: 1px solid var(--accent);
+	background-color: var(--accent);
 	color: var(--white);
 }
 
