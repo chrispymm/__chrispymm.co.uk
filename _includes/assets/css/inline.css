@@ -1,5 +1,5 @@
 :root {
-	--bg: #efefef;
+	--bg: #f1f1f1;
   --fg: #313131;
 	--white: white;
 	--accent: #C26B56;
@@ -21,6 +21,7 @@ body {
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
 	background-color: var(--bg);
+  color: var(--fg);
 }
 
 main {
